@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import qs from "query-string";
-import { Check, Gavel, Loader2, MoreVertical, Shield, ShieldAlert, ShieldCheck, ShieldQuestion } from 'lucide-react';
+import { Check, Crown, Gavel, Loader2, MoreVertical, Shield, ShieldCheck, ShieldQuestion } from 'lucide-react';
 import { useState } from 'react';
 import { MemberRole } from '@prisma/client';
 import { useRouter } from "next/navigation";
@@ -17,7 +17,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuPortal
 const roleIconMap = {
   "GUEST": null,
   "MODERATOR": <ShieldCheck className='h-4 w-4 ml-2 text-indigo-500'/>,
-  "ADMIN": <ShieldAlert className='h-4- w-4 text-rose-500' />
+  "ADMIN": <Crown className='h-4- w-4 text-amber-500' />
 }
 
 export const MembersModal = () => {
