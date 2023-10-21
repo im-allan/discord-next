@@ -13,7 +13,7 @@ interface ChatHeaderProps {
 
 export const ChatHeader = ({ serverId, name, type, imageUrl }: ChatHeaderProps) => {
   return (
-    <section className="text-sm font-semibold px-3 flex items-center h-12 border-neutral-200 dark:border-neutral-800 border-b-2">
+    <section className="text-sm font-semibold px-3 flex items-center h-12 md:h-16 border-neutral-200 dark:border-neutral-800 border-b-2 dark:border-t-[#1E1F22] border-t-[#E3E5E8] md:border-t-[1rem]">
       <MobileToggle serverId={serverId} />
       { type === "channel" && (
         <Hash className="w-6 h-6 text-zinc-500 dark:text-zinc-400 mr-2"/>
