@@ -27,7 +27,7 @@ export const ServerHeader = ({ server, role }: ServerHeaderProps) => {
         asChild
       >
         <button
-          className="w-full text-md font-semibold px-3 flex items-center h-12 border-neutral-200
+          className="w-full text-md font-semibold px-3 flex items-center h-12 border-neutral-200  rounded-t-xl md:rounded-tr-none  md:rounded-tl-xl dark:bg-[#2B2D31] bg-[#F2F3F5]
            dark:border-neutral-800 border-b-2 hover:bg-zinc-700/10 dark:hover:bg-zinc-700/50 transition"
         >
           { server.name }
