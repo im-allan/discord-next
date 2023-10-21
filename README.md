@@ -17,23 +17,21 @@ Team Chat es una aplicación de mensajería en tiempo real, inspirada en Discord
 
 1. Clona este repositorio:
 
-   ```bash
-   git clone https://github.com/im-allan/discord-next.git
-   ```
-   
+```bash
+git clone https://github.com/im-allan/team-chat.git
+```
 
+```bash
+npm install
+```
 
-   ```bash
-   npm install
-   ```
+```bash
+cd team-chat
+```
 
-   ```bash
-  cd discord-next
-   ```
-
-   ```bash
-  npm run dev
-  ```
+```bash
+npm run dev
+```
 
 ## Características Principales 🌟
 - Comunicación en tiempo real.
@@ -41,5 +39,6 @@ Team Chat es una aplicación de mensajería en tiempo real, inspirada en Discord
 - Emojis personalizados 😄.
 - Integración de Clerk para la autenticación.
 - Integración de LiveKit para llamadas de audio y video.
+
 ## Contribución 🤝
 ¡Siéntete libre de contribuir a este proyecto! Abre un problema (issue) o envía una solicitud de extracción (pull request).
