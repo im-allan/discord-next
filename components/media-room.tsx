@@ -47,15 +47,17 @@ export const MediaRoom = ({ chatId, video, audio }: MediaRoomProps) => {
   }
 
   return (
-    <LiveKitRoom
-      data-lk-theme="default"
-      serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
-      token={token}
-      connect={true}
-      video={video}
-      audio={audio}
-    >
-      <VideoConference />
-    </LiveKitRoom>
+    <div className="h-[90%]">
+      <LiveKitRoom
+        data-lk-theme="default"
+        serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
+        token={token}
+        connect={true}
+        video={video}
+        audio={audio}
+      >
+        <VideoConference />
+      </LiveKitRoom>
+    </div>
   )
 }
